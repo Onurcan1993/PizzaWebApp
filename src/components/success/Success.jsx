@@ -5,7 +5,7 @@ import TotalPriceCard from "../order/TotalPriceCard";
 function Success({ totalPrice, order }) {
   return (
     <div>
-      <div className="p-4 w-screen bg-rose-800 flex flex-col justify-center items-center gap-y-4 ">
+      <div className="p-4 w-full bg-rose-800 flex flex-col justify-center items-center gap-y-4 ">
         <img className="w-[250px] p-2 mb-4" src={logo} alt="" />
         <div className="w-[30%] p-6  flex flex-col justify-center items-center gap-y-2  border-b xs:w-full xs:text-center">
           <span className="text-yellow font-satisfy">lezzetin yolda</span>

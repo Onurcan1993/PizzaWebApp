@@ -69,7 +69,7 @@ function Form({
   return (
     <form
       onSubmit={submitHandler}
-      className="w-screen flex flex-col justify-center items-center p-2 font-roboto mt-4 mb-4 "
+      className="w-full flex flex-col justify-center items-center p-2 font-roboto mt-4 mb-4 "
     >
       <section className="w-[30%] flex flex-col justify-center items-center gap-y-4 xs:w-[80%] ">
         <div className="w-full flex justify-between ">

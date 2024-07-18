@@ -1,6 +1,6 @@
 function Main() {
   return (
-    <div className="bg-bej flex flex-col  justify-center items-center w-screen">
+    <div className="bg-bej flex flex-col  justify-center items-center w-full">
       <div className="bg-pizza h-[130px] w-[30%]  bg-cover bg-bottom xs:bg-none xs:h-0"></div>
 
       <div className="w-[30%] flex flex-col  justify-start mt-5 gap-y-5 font-roboto xs:w-[80%] xs:mt-3">

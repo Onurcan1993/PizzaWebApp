@@ -45,7 +45,7 @@ function Main() {
   const [menuItems, setMenuItems] = useState(items);
 
   return (
-    <main className=" w-screen  flex flex-col justify-center items-center bg-bej">
+    <main className=" w-full  flex flex-col justify-center items-center bg-bej">
       {/* Main Images */}
       <div className=" h-full my-5 w-2/4 flex gap-x-2 xs:flex-col xs:w-[90%] xs:gap-y-2">
         <Kart1 name={btnName}></Kart1>
@@ -64,7 +64,7 @@ function Main() {
         <p className="text-2xl font-roboto font-medium xs:w-[55%] text-center">
           Acıktıran Kodlara Doyuran Lezzetler
         </p>
-        <nav className="w-screen  flex justify-center">
+        <nav className="w-full  flex justify-center">
           <div className="w-3/4 text-xs font-roboto py-2 flex justify-center items-center gap-x-7  flex-wrap xs:justify-between xs:gap-y-3">
             {menuItems.map((item, index) =>
               index == 1 ? (

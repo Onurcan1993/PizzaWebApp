@@ -15,7 +15,7 @@ function Order({
   finalOrder,
 }) {
   return (
-    <div className="w-screen">
+    <div className="w-full">
       <Header />
       <Main />
       <Form

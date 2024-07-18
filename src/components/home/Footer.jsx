@@ -15,7 +15,7 @@ import twitter from "../../../public/assets/footer/logo-footer.svg";
 
 function Footer() {
   return (
-    <footer className="bg-gri w-screen flex flex-col justify-center items-center text-white ">
+    <footer className="bg-gri w-full flex flex-col justify-center items-center text-white ">
       <section className="w-3/4 flex justify-center items-center p-3 gap-x-4 xs:flex-col xs:items-start">
         <div className="flex flex-col p-3 gap-y-6">
           <img className="w-[110px]" src={twitter} alt="#" />
@@ -69,7 +69,7 @@ function Footer() {
           <p className="text-xs">© 2023 Teknolojik Yemekler</p>
         </span>
         <span>
-          <i class="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-twitter"></i>
         </span>
       </div>
     </footer>
